@@ -153,7 +153,4 @@ ________
 
 - <a href="https://css-tricks.com/the-css-custom-property-toggle-trick/" target="_blank">https://css-tricks.com/the-css-custom-property-toggle-trick/</a>
 - <a href="https://github.com/propjockey/css-sweeper#css-is-a-programming-language-thanks-to-the-space-toggle-trick" target="_blank">https://github.com/propjockey/css-sweeper#css-is-a-programming-language-thanks-to-the-space-toggle-trick</a>
-- <a href="https://github.com/propjockey/aug-attr-spliced.js" target="_blank">https://github.com/propjockey/aug-attr-spliced.js</a>
 - <a href="https://lea.verou.me/blog/2020/10/the-var-space-hack-to-toggle-multiple-values-with-one-custom-property/" target="_blank">https://lea.verou.me/blog/2020/10/the-var-space-hack-to-toggle-multiple-values-with-one-custom-property/</a>
-
- - 
