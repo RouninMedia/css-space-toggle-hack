@@ -7,20 +7,20 @@ For example, here's the **CSS Space Toggle** toggling no fewer than 8 properties
 
 ## HTML
 ```html
-<div class="square" tabindex="0"></div>
+<div class="square1" tabindex="0"></div>
 ```
 
 ## CSS
 ```css
-.square {
+.square1 {
   --squareFocusToggle: /**/;
 }  
 
-.square:focus {
+.square1:focus {
   --squareFocusToggle: initial;
 }
 
-.square {
+.square1 {
   --backgroundColorBlur: var(--squareFocusToggle) rgb(255, 127, 0);
   --backgroundColorFocus: rgb(255, 0, 0);
   
@@ -46,7 +46,7 @@ For example, here's the **CSS Space Toggle** toggling no fewer than 8 properties
   --borderRadiusFocus: 50%;
 }
 
-.square {
+.square1 {
   position: relative;
   width: 100px;
   height: 100px;
@@ -68,7 +68,7 @@ For example, here's the **CSS Space Toggle** toggling no fewer than 8 properties
   cursor: pointer;
 }
 
-.square::after {
+.square1::after {
   content: var(--contentBlur, var(--contentFocus));
   position: absolute;
   inset: 0;
@@ -76,3 +76,71 @@ For example, here's the **CSS Space Toggle** toggling no fewer than 8 properties
   place-content: center;
 }
 ```
+
+But that feels excessively complex, next to more conventional CSS, which does exactly the same thing:
+
+## HTML
+```html
+<div class="square1" tabindex="0"></div>
+```
+
+## CSS
+```css
+.square2 {
+  position: relative;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  margin-right: 12px;
+  line-height: 1.5;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  -webkit-text-stroke: 2px rgba(0, 0, 0, 0.5);
+  paint-order: stroke fill;
+  background-color: rgb(255, 127, 0);
+  border: 9px solid rgb(255, 0, 0);
+  border-radius: 0%; 
+  transition: all 1.8s ease-out;
+  background-clip: padding-box;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.square2:focus {
+  color: rgb(255, 255, 0);
+  font-size: 18px;
+  text-transform: capitalize;
+  -webkit-text-stroke: 4px rgba(0, 0, 0, 0.5);
+  background-color: rgb(255, 0, 0);
+  border: 3px solid rgb(0, 127, 0);
+  border-radius: 50%;
+}
+
+.square2::after {
+  content: 'Click me';
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-content: center;
+}
+
+.square2:focus::after {
+  content: 'Click outside me';
+}
+```
+_________
+
+## Current Thoughts
+
+It feels like the second example (using conventional CSS) is both:
+
+ 1. Shorter
+ 2. Easier to read and understand
+
+________
+
+On that basis I'd be really keen to see an example of the **CSS Space Toggle Hack** which enables an effect which would be harder / impossible to write using conventional CSS.
