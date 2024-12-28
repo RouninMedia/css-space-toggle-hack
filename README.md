@@ -1,6 +1,8 @@
 # CSS Space Toggle Hack
 Getting to grips with the CSS Space Toggle Hack...
 
+**Working Example:** https://rouninmedia.github.io/css-space-toggle-hack/
+
 I first came across the **CSS Space Toggle Hack** halfway through 2021 and, while I could follow the syntax, I could barely get my head around it.
 
 I've come back to it recently, now that I'm learning about the forthcoming `if()` function in CSS and it's much clearer to me how it all works.
@@ -152,6 +154,11 @@ It feels like the second example (using conventional CSS) is both:
 ________
 
 On that basis I'd be really keen to see an example of the **CSS Space Toggle Hack** which enables an effect which would be harder to understand / much more verbose / impossible to write using conventional CSS.
+
+________
+
+
+**Working Example:** https://rouninmedia.github.io/css-space-toggle-hack/
 
 ________
 
