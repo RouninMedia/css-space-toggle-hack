@@ -79,7 +79,7 @@ For example, here's the **CSS Space Toggle** toggling no fewer than _8 propertie
 }
 ```
 
-But that feels excessively complex, next to more conventional CSS, which does exactly the same thing:
+It works and it's very clever. But, also, it feels excessively complex, next to more conventional CSS, which does exactly the same thing:
 
 ## HTML
 ```html
