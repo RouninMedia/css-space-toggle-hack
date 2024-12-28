@@ -3,7 +3,7 @@ Getting to grips with the CSS Space Toggle Hack...
 
 It feels like this trick / hack _ought_ to be incredibly useful.
 
-But, so far, I can't see any way to deploy it which is more straightforward than _not_ deploying it.
+But, so far, I can't see any way to deploy it which works better than _not_ deploying it.
 
 For example, here's the **CSS Space Toggle** toggling no fewer than _8 properties_ simultaneously - including the `content` property of an `::after` pseudo-element:
 
