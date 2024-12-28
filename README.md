@@ -3,6 +3,8 @@ Getting to grips with the CSS Space Toggle Hack...
 
 **Working Example:** https://rouninmedia.github.io/css-space-toggle-hack/
 
+_________
+
 I first came across the **CSS Space Toggle Hack** halfway through 2021 and, while I could follow the syntax, I could barely get my head around it.
 
 I've come back to it recently, now that I'm learning about the forthcoming `if()` function in CSS and it's much clearer to me how it all works.
