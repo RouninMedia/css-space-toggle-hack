@@ -5,7 +5,7 @@ It feels like this trick / hack _ought_ to be incredibly useful.
 
 But, so far, I can't see any way to deploy it which is more straightforward than _not_ deploying it.
 
-For example, here's the **CSS Space Toggle** toggling no fewer than _8 properties_ simultaneously - _including_ the `content` property of an `::after` pseudo-element:
+For example, here's the **CSS Space Toggle** toggling no fewer than _8 properties_ simultaneously - including the `content` property of an `::after` pseudo-element:
 
 ## HTML
 ```html
