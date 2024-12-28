@@ -1,5 +1,5 @@
 # CSS Space Toggle Hack
-Getting to grips with the CSS Space Toggle Hack...
+_Getting to grips with the CSS Space Toggle Hack..._
 
 **Working Example:** https://rouninmedia.github.io/css-space-toggle-hack/
 
