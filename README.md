@@ -7,9 +7,9 @@ _________
 
 I first came across the **CSS Space Toggle Hack** halfway through 2021 and, while I could follow the syntax, I could barely get my head around it.
 
-I've come back to it recently, now that I'm learning about the forthcoming `if()` function in CSS  (see: <a href="https://rouninmedia.github.io/css-space-toggle-hack/" target="_blank">https://lea.verou.me/blog/2024/css-conditionals/</a>) and it's much clearer to me how it all works.
+I've come back to it recently, now that I'm learning about the forthcoming `if()` function in CSS  (see: <a href="https://rouninmedia.github.io/css-space-toggle-hack/" target="_blank">https://lea.verou.me/blog/2024/css-conditionals/</a>) and it's much clearer to me how each cog of the toggle works.
 
-_Hint: although it's called the **Space Toggle**, the `initial` value of the custom property is **as important** as the `whitespace` value.
+_**Hint**: although it's called the **Space Toggle**, the `initial` value of the custom property is **as important** as the `whitespace` value._
 
 It _feels_ like this trick / hack ought to be incredibly useful.
 
