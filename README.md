@@ -1,7 +1,7 @@
 # CSS Space Toggle Hack
 _Getting to grips with the CSS Space Toggle Hack..._
 
-**Working Example:** https://rouninmedia.github.io/css-space-toggle-hack/
+**Working Example:** <a href="https://rouninmedia.github.io/css-space-toggle-hack/" target="_blank">https://rouninmedia.github.io/css-space-toggle-hack/</a>
 
 _________
 
