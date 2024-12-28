@@ -145,4 +145,4 @@ It feels like the second example (using conventional CSS) is both:
 
 ________
 
-On that basis I'd be really keen to see an example of the **CSS Space Toggle Hack** which enables an effect which would be harder / impossible to write using conventional CSS.
+On that basis I'd be really keen to see an example of the **CSS Space Toggle Hack** which enables an effect which would be harder to understand / much more verbose / impossible to write using conventional CSS.
