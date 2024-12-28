@@ -159,11 +159,6 @@ On that basis I'd be really keen to see an example of the **CSS Space Toggle Hac
 
 ________
 
-
-**Working Example:** https://rouninmedia.github.io/css-space-toggle-hack/
-
-________
-
 ## Further Reading:
 
 - <a href="https://css-tricks.com/the-css-custom-property-toggle-trick/" target="_blank">https://css-tricks.com/the-css-custom-property-toggle-trick/</a>
