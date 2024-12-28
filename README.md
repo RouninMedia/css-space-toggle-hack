@@ -112,6 +112,14 @@ It works and it's very clever. But, also, it feels excessively complex, next to 
   cursor: pointer;
 }
 
+.square2::after {
+  content: 'Click me';
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-content: center;
+}
+
 .square2:focus {
   color: rgb(255, 255, 0);
   font-size: 18px;
@@ -120,14 +128,6 @@ It works and it's very clever. But, also, it feels excessively complex, next to 
   background-color: rgb(255, 0, 0);
   border: 3px solid rgb(0, 127, 0);
   border-radius: 50%;
-}
-
-.square2::after {
-  content: 'Click me';
-  position: absolute;
-  inset: 0;
-  display: grid;
-  place-content: center;
 }
 
 .square2:focus::after {
