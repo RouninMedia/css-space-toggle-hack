@@ -70,7 +70,7 @@ For example, here's the **CSS Space Toggle** toggling no fewer than _8 propertie
   background-color: var(--backgroundColorBlur, var(--backgroundColorFocus));
   border: var(--borderBlur, var(--borderFocus));
   border-radius: var(--borderRadiusBlur, var(--borderRadiusFocus));
-  transition: all 1.8s ease-out;
+  transition: all 1.2s ease-out;
   background-clip: padding-box;
   box-sizing: border-box;
   cursor: pointer;
@@ -112,7 +112,7 @@ It works and it's very clever. But, also, it feels excessively complex, next to 
   background-color: rgb(255, 127, 0);
   border: 9px solid rgb(255, 0, 0);
   border-radius: 0%; 
-  transition: all 1.8s ease-out;
+  transition: all 1.2s ease-out;
   background-clip: padding-box;
   box-sizing: border-box;
   cursor: pointer;
