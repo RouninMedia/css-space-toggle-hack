@@ -2,9 +2,9 @@
   <head>
 
     <style>
-    .square1 {
-      --squareFocusToggle: /**/;
-    }  
+.square1 {
+  --squareFocusToggle: /**/;
+}  
 
 .square1:focus {
   --squareFocusToggle: initial;
@@ -38,8 +38,10 @@
 
 .square1 {
   position: relative;
+  display: inline-block;
   width: 100px;
   height: 100px;
+  margin-right: 12px;
   line-height: 1.5;
   font-family: sans-serif;
   font-size: var(--fontSizeBlur, var(--fontSizeFocus));
@@ -66,6 +68,10 @@
   place-content: center;
 }
 
+
+ /********/
+/********/      
+
 .square2 {
   position: relative;
   display: inline-block;
@@ -90,14 +96,6 @@
   cursor: pointer;
 }
 
-.square2::after {
-  content: 'Click me';
-  position: absolute;
-  inset: 0;
-  display: grid;
-  place-content: center;
-}
-
 .square2:focus {
   color: rgb(255, 255, 0);
   font-size: 18px;
@@ -106,6 +104,14 @@
   background-color: rgb(255, 0, 0);
   border: 3px solid rgb(0, 127, 0);
   border-radius: 50%;
+}
+
+.square2::after {
+  content: 'Click me';
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-content: center;
 }
 
 .square2:focus::after {
