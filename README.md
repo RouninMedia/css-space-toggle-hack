@@ -1,9 +1,15 @@
 # CSS Space Toggle Hack
 Getting to grips with the CSS Space Toggle Hack...
 
-It feels like this trick / hack _ought_ to be incredibly useful.
+I first came across the **CSS Space Toggle Hack** halfway through 2021 and, while I could follow the syntax, I could barely get my head around it.
 
-But, so far, I can't see any way to deploy it which works better than _not_ deploying it.
+I've come back to it recently, now that I'm learning about the forthcoming `if()` function in CSS and it's much clearer to me how it all works.
+
+_Hint: although it's called the **Space Toggle**, the `initial` value of the custom property is **as important** as the `whitespace` value.
+
+It _feels_ like this trick / hack ought to be incredibly useful.
+
+But, so far, (neither in May 2021 nor now in late December 2024) I cannot see any way to deploy it which works better than _not_ deploying it.
 
 For example, here's the **CSS Space Toggle** toggling no fewer than _8 properties_ simultaneously - including the `content` property of an `::after` pseudo-element:
 
